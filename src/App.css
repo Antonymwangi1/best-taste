@@ -1,0 +1,70 @@
+.no-marg-padd {
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color)
+}
+
+button {
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    color: #fff;
+    outline: 0;
+    margin: 0 10px;
+}
+
+.btn-red {
+    background-color: var(--secondary-color);
+    border: 1px solid transparent;
+    transition: .3s;
+}
+.btn-red:hover {
+    background-color: #ff1010;
+}
+.btn-hover-red {
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    transition: .3s;
+}
+.btn-hover-red:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn-light {
+    background-color: rgba(255, 255, 255, 0.548);
+    border: 1px solid transparent;
+}
+.btn-hover-light {
+    background-color: transparent;
+    border: 1px solid  rgba(255, 255, 255, 0.548);
+    transition: .3s;
+}
+.btn-hover-light:hover {
+    background-color: rgba(255, 255, 255, 0.548);
+    border: none;
+}
+
+
+.text-grey {
+    color: rgba(255, 255, 255, 0.548);
+}
+.text-red {
+    color: var(--secondary-color);
+}
+
+.icon-red {
+    color: var(--secondary-color)
+}
+.icon-white {
+    color: var(--text-color)
+}
+
+.card {
+    border: none;
+    background-color: #1f1f1f;
+}

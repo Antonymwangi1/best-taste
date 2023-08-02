@@ -1,0 +1,31 @@
+.contact-fluid {
+    margin-top: 100px;
+}
+.contact-fluid .container {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contact-h1 {
+    display: flex;
+    flex-direction: column;
+}
+.contact-h1::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 130px;
+    background-color: var(--secondary-color);
+    margin: 10px auto 60px auto;
+}
+
+.form-reserve {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.form-group {
+    margin: 10px auto;
+}
+
+form .col-lg-6 {
+    margin: 10px auto;
+}

@@ -1,0 +1,55 @@
+
+.reviews-fluid .people-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews-fluid .people-name .review-img {
+    width: 60px;
+    border-radius: 50%;
+}
+.reviews-fluid .card {
+    cursor: pointer;
+    transition: .4s;
+}
+.reviews-fluid .card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.review-h1 {
+    display: flex;
+    flex-direction: column;
+}
+.review-h1::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 90px;
+    background-color: var(--secondary-color);
+    margin: 10px auto 30px auto;
+}
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    .reviews-fluid {
+        margin-top: 42rem;
+    }
+
+    .reviews-fluid .col-lg-3 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 820px) {
+    .reviews-fluid {
+        margin-top: 66rem;
+    }
+    .reviews-fluid p, h4 {
+        font-size: 2rem;
+    }
+
+    .reviews-fluid .col-lg-3 {
+        margin-top: 20px;
+    }
+}
